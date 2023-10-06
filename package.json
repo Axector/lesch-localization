@@ -1,0 +1,22 @@
+{
+  "name": "com.lesch.localization",
+  "version": "1.4.0",
+  "displayName": "LESCH Localization",
+  "description": "This package provides localization for TMP_Text components (others can be added by inheriting from LocalizedObject abstract class). Currently, there are 2 serializers in this package: XML and JSON. These are file types in which translations must be located. Which serializer is used depends on what is selected on LocalizationStorage component. You must create empty object, put Localization and LocalizationStorage on it and configure. Then just add LocalizaedTMPText to your objects with TMP_Text component.",
+  "unity": "2022.3",
+  "unityRelease": "4f1",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "keywords": [
+    "localization",
+    "lesch",
+    "leschgames",
+	"translation"
+  ],
+  "author": {
+    "name": "LESCH Games",
+    "email": "daniil.0.lesch@gmail.com",
+    "url": "https://www.leschgames.com/"
+  }
+}
